@@ -1,0 +1,966 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+
+@mixin center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+@mixin evenly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+@mixin Font18px {
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    text-shadow: 3px 3px 3px red;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    background-image: url(images/PAGE_1/BodyBackground.jpg);
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+
+    header {
+        width: 100%;
+        height: 80px;
+
+        nav {
+            width: 100%;
+            height: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            background-color: rgb(22, 22, 22);
+            border-bottom: 3px solid white;
+            position: absolute;
+            top: 0px;
+            position: fixed;
+            z-index: 2;
+
+
+            h1 {
+                color: white;
+                margin-left: 30px;
+                font-family: 'Merienda', cursive;
+                text-shadow: 3px 3px 3px red;
+            }
+
+            .LINKS {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+
+                .PAGES {
+                    color: white;
+                    margin-right: 30px;
+                    text-decoration: none;
+                    @include Font18px;
+                }
+            }
+
+            input[type="checkbox"] {
+            display: none;
+            }
+                
+            .fa-solid.fa-bars {
+                font-size: 18px;
+                margin-right: 20px;
+                color: white;
+                display: none;  
+            }
+        }
+    }
+    main {
+        width: 100%;
+
+        .Banner {
+            width: 100%;
+            height: 650px;
+            background-image: url(images/PAGE_3/MAINbackground.webp);
+            background-size: 100% 100%;
+            -webkit-box-shadow: 8px 8px 8px red;
+                    box-shadow: 8px 8px 8px red;
+            @include center;
+
+            #PageName {
+                margin: 0px;
+                font-size: 50px;
+                color: white;
+                font-family: 'Merienda', cursive;
+                text-shadow: 3px 3px 3px red;
+            }
+        }
+        #TitleBox {
+            width: 100%;
+            height: 150px;
+            @include center;
+
+            .TITLE {
+                width: 400px;
+                height: 40px;
+                background-color: rgb(22, 22, 22);
+                border: 3px solid black;
+                border-radius: 30px;
+                @include center;
+                -webkit-box-shadow: 5px 3px 10px red;
+                        box-shadow: 5px 3px 10px red;
+
+                p {
+                    color: white;
+                    font-size: 22px;
+                    font-family: 'Merienda', cursive;
+                    text-shadow: 3px 3px 3px red;
+                }
+            }
+        }
+        .Information {
+            margin-bottom: 80px;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+
+            .Box1 {
+                width: 990px;
+                height: 900px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+
+                .Left {
+                    width: 50%;
+                    height: 100%;
+
+                    #LeftUp {
+                        width: 100%;
+                        height: 490px;
+                        text-align: center;
+
+                        .title {
+                            font-size: 22px;
+                            margin: 10px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                        p {
+                            font-size: 13px;
+                            margin: 10px 20px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                    }
+                    #LeftDown {
+                        width: 100%;
+                        height: 405px;
+                        background-image: url(images/PAGE_3/MiniBackground.jpg);
+                        background-size: cover;
+                        border-radius: 20px;
+                    }
+                }
+                .Right {
+                    width: 50%;
+                    height: 100%;
+
+                    #RightUp {
+                        width: 100%;
+                        height: 405px;
+                        background-image: url(images/PAGE_3/MiniBackground2.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        border-radius: 20px;
+                    }
+                    #RightDown{
+                        width: 100%;
+                        height: 490px;
+                        text-align: center;
+
+                        p {
+                            font-size: 13px;
+                            margin: 15px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                    }
+                }
+            }
+        }
+        .Information2 {
+            margin-bottom: 80px;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+
+            .Box2 {
+                width: 990px;
+                height: 900px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+
+                .Left2 {
+                    width: 50%;
+                    height: 100%;
+
+                    #LeftUp2 {
+                        width: 100%;
+                        height: 490px;
+                        text-align: center;
+
+                        .title2 {
+                            font-size: 22px;
+                            margin: 10px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                        p {
+                            font-size: 13px;
+                            margin: 10px 20px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                    }
+                    #LeftDown2 {
+                        width: 100%;
+                        height: 405px;
+                        background-image: url(images/PAGE_3/MiniBackground3.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        border-radius: 20px;
+                    }
+                }
+                .Right2 {
+                    width: 50%;
+                    height: 100%;
+
+                    #RightUp2 {
+                        width: 100%;
+                        height: 405px;
+                        background-image: url(images/PAGE_3/MiniBackground4.jpg);
+                        background-size: cover;
+                        border-radius: 20px;
+                    }
+                    #RightDown2 {
+                        width: 100%;
+                        height: 490px;
+                        text-align: center;
+
+                        p {
+                            font-size: 13px;
+                            margin: 15px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                    }
+                }
+            }
+        }
+        .Information3 {
+            margin-bottom: 20px;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+
+            .Box3 {
+                width: 990px;
+                height: 900px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+
+                .Left3 {
+                    width: 50%;
+                    height: 100%;
+
+                    #LeftUp3 {
+                        width: 100%;
+                        height: 490px;
+                        text-align: center;
+
+                        p {
+                            font-size: 13px;
+                            margin: 10px;
+                            margin-top: none;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                    }
+                    #LeftDown3 {
+                        width: 100%;
+                        height: 405px;
+                        background-image: url(images/PAGE_3/MiniBackground5.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        border-radius: 20px;
+                    }
+                }
+                .Right3 {
+                    width: 50%;
+                    height: 100%;
+
+                    #RightUp3 {
+                        width: 100%;
+                        height: 405px;
+                        background-image: url(images/PAGE_3/MiniBackground6.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        border-radius: 20px;
+                    }
+                    #RightDown3 {
+                        width: 100%;
+                        height: 490px;
+                        text-align: center;
+
+                        p {
+                            font-size: 13px;
+                            margin: 15px;
+                            font-family: 'Merienda', cursive;
+                            text-shadow: 3px 3px 3px red;
+                        }
+                    }
+                }
+            }
+        }
+        .Information3_LASTpart {
+            width: 100%;
+            height: 410px;
+            @include center;
+
+            #center {
+                width: 800px;
+                height: 400px;
+                text-align: center;
+
+                p {
+                    font-size: 13px;
+                    margin: 20px;
+                    font-family: 'Merienda', cursive;
+                    text-shadow: 3px 3px 3px red;
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 100px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        background-color: rgb(22, 22, 22);
+
+        #NAME2 {
+            font-size: 27px;
+            color: white;
+            margin-left: 30px;
+            font-family: 'Merienda', cursive;
+            text-shadow: 3px 3px 3px red;
+
+            span {
+                font-size: 18px;
+            }
+        }
+        .icons {
+            margin-right: 30px;
+
+            i {
+                margin-right: 20px;
+                font-size: 18px;
+                color: white;
+                text-shadow: 3px 3px 3px red;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+    body {
+        main {
+            .Banner {
+                height: 580px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1100px) {
+    body {
+        main {
+            .Banner {
+                height: 520px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        header {
+            nav {
+                .LINKS {
+                    display: block;
+                    background-color: rgb(22, 22, 22);
+                    border: 3px solid white; 
+                    position: absolute;
+                    width: 120px;
+                    text-align: center;
+                    top: 80px;
+                    right: -130px;
+                    -webkit-transition-duration: 1s;
+                         -o-transition-duration: 1s;
+                            transition-duration: 1s;
+
+                    .PAGES {
+                        display: block;
+                        margin: 8px 0px;
+                    }
+
+                }
+                .fa-solid.fa-bars {
+                    display: block;
+                }
+                input[type="checkbox"]:checked ~ .LINKS {
+                    display: block;
+                    background-color: rgb(22, 22, 22);
+                    border: 3px solid white; 
+                    position: absolute;
+                    width: 120px;
+                    text-align: center;
+                    top: 80px;
+                    right: 0px;
+                    -webkit-transition-duration: 1s;
+                         -o-transition-duration: 1s;
+                            transition-duration: 1s;
+
+                    .PAGES {
+                        display: block;
+                        margin: 8px 0px;
+                    }
+                }
+            }
+        }
+        main {
+            .Banner {
+                height: 450px;
+            }
+            .Information {
+                .Box1 {
+                    width: 500px;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    height: 1800px;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+
+                    .Left {
+                        width: 495px;
+                        height: 930px;
+                        margin: 20px;
+
+                        #LeftUp {
+                            height: 525px;
+                        }
+                    }
+                    .Right {
+                        width: 495px;
+                        height: 900px;
+                        margin: 20px;
+                    }
+                }
+            }
+            .Information2 {
+                .Box2 {
+                    width: 800px;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    height: 1800px;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+
+                    .Left2 {
+                        width: 495px;
+                        height: 900px;
+                        margin: 20px;
+                    }
+                    .Right2 {
+                        width: 495px;
+                        height: 900px;
+                        margin: 20px;
+                    }
+                }
+            }
+            .Information3 {
+                .Box3 {
+                    width: 800px;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    height: 1800px;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    margin-bottom: 80px;
+
+                    .Left3 {
+                        width: 495px;
+                        height: 900px;
+                        margin: 20px;
+                    }
+                    .Right3 {
+                        width: 495px;
+                        height: 900px;
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+        footer {
+            #NAME2 {
+                width: 345px;
+                font-size: 25px;
+
+                span {
+                    font-size: 18px;
+                }
+            }
+            .icons {
+                width: 165px;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        main {
+            .Banner {
+                height: 380px;
+            }
+            .Information3_LASTpart {
+                height: 700px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    body {
+        main {
+            .Banner {
+                height: 300px;
+            }
+        }
+        footer {
+            #NAME2 {
+                width: 275px;
+                font-size: 20px;
+
+                span {
+                    font-size: 14px;
+                }
+            }
+            .icons {
+                width: 165px;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 530px) {
+    body {
+        header {
+            nav {
+                h1 {
+                    font-size: 20px;
+                    margin-left: 15px;
+                }
+            }
+        }
+        main {
+            .Banner {
+                height: 250px;
+            }
+            .Information {
+                .Box1 {
+                    height: 1800px;
+
+                    .Left {
+                        height: 910px;
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+
+                        #LeftUp {
+                            width: 95%; 
+                            height: 599px;
+                        }
+
+                        #LeftDown {
+                            width: 95%;
+                            height: 300px;
+                        }
+
+                    }
+                    .Right {
+                        height: 830px;
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+
+                        #RightUp {
+                            width: 95%;
+                            height: 300px;
+                        }
+
+                        #RightDown {
+                            width: 95%;
+                            height: 520px;
+                        }
+                    }
+                }
+            }
+            .Information2 {
+                .Box2 {
+                    height: 2000px;
+
+                    .Left2 {
+                        height: 910px;
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+
+                        #LeftUp2 {
+                            width: 95%;
+                            height: 599px;
+                        }
+
+                        #LeftDown2 {
+                            width: 95%;
+                            height: 300px;
+                        }
+
+                    }
+                    .Right2 {
+                        height: 1030px;
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+
+                        #RightUp2 {
+                            width: 95%;
+                            height: 300px;
+                        }
+
+                        #RightDown2 {
+                            width: 95%;
+                            height: 670px;
+                        }
+                    }
+                }
+            }
+            .Information3 {
+                .Box3 {
+                    height: 1840px;
+
+                    .Left3 {
+                        height: 910px;
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+
+                        #LeftUp3 {
+                            width: 95%;
+                            height: 630px;
+                        }
+
+                        #LeftDown3 {
+                            width: 95%;
+                            height: 300px;
+                        }
+
+                    }
+                    .Right3 {
+                        height: 840px;
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+
+                        #RightUp3 {
+                            width: 95%;
+                            height: 300px;
+                        }
+
+                        #RightDown3 {
+                            width: 95%;
+                            height: 625px;
+                        }
+                    }
+                }
+            }
+            .Information3_LASTpart {
+                height: 750px;
+
+                #center {
+                    width: 95%;
+                    height: 750px;
+                }
+            }
+        }
+        footer {
+            height: 150px;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: baseline;
+                -ms-flex-align: baseline;
+                    align-items: baseline;
+        }
+    }
+}
+@media screen and (max-width: 460px) {
+    body {
+        main {
+            .Information {
+                .Box1 {
+                    .Left {
+                        height: 950px;
+
+                        #LeftUp {
+                            height: 660px;
+                        }
+                    }
+                }
+            }
+            .Information2 {
+                .Box2 {
+                    .Left2 {
+                        height: 1000px;
+
+                        #LeftUp2 {
+                            height: 670px;
+                        }
+                    }
+                }
+            }
+            .Information3 {
+                .Box3 {
+                    height: 2000px;
+
+                    .Left3 {
+                        height: 1000px;
+
+                        #LeftUp3 {
+                            height: 670px;
+                        }
+                    }
+                    .Right3 {
+                        height: 1000px;
+                    }
+                }
+            }
+            .Information3_LASTpart {
+                height: 770px;
+
+                #center {
+                    height: 770px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        main {
+            .Banner {
+                height: 200px;
+            }
+            #TitleBox {
+                .TITLE {
+                    width: 340px;
+                }
+            }
+            .Information {
+                .Box1 {
+                    height: 1790px;
+
+                    .Left {
+                        height: 930px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        #LeftUp {
+                            height: 730px;
+                        }
+                        #LeftDown {
+                            height: 200px;
+                        }
+                    }
+                    .Right {
+                        height: 840px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        #RightUp {
+                            height: 200px;
+                        }
+                        #RightDown {
+                            height: 640px;
+                        }
+                    }
+                }
+            }
+            .Information2 {
+                .Box2 {
+                    height: 2040px;
+                    .Left2 {
+                        height: 960px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        #LeftUp2 {
+                            height: 750px;
+                        }
+                        #LeftDown2 {
+                            height: 200px;
+                        }
+                    }
+                    .Right2 {
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        #RightUp2 {
+                            height: 200px;
+                        }
+                        #RightDown2 {
+                            height: 810px;
+                        }
+                    }
+                }
+            }
+            .Information3 {
+                .Box3 {
+                    .Left3 {
+                        height: 900px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        #LeftUp3 {
+                            height: 700px;
+                        }
+                        #LeftDown3 {
+                            height: 200px;
+                        }
+                    }
+                    .Right3 {
+                        height: 830px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        #RightUp3 {
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+            .Information3_LASTpart {
+                height: 900px;
+
+                #center {
+                    height: 900px;
+                }
+            }
+        }
+    }
+}

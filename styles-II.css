@@ -1,0 +1,707 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap");
+body {
+  width: 100%;
+  margin: 0px;
+  background-image: url(images/PAGE_1/BodyBackground.jpg);
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+}
+body header {
+  width: 100%;
+  height: 80px;
+}
+body header nav {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+  border-bottom: 3px solid white;
+  position: absolute;
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+}
+body header nav h1 {
+  color: white;
+  margin-left: 30px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body header nav .LINKS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body header nav .LINKS .PAGES {
+  color: white;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body header nav input[type=checkbox] {
+  display: none;
+}
+body header nav .fa-solid.fa-bars {
+  font-size: 18px;
+  margin-right: 20px;
+  color: white;
+  display: none;
+}
+body main {
+  width: 100%;
+}
+body main .MAIN {
+  width: 100%;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .MAIN #MAINleft {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .MAIN #MAINleft #Up {
+  width: 98.5%;
+  height: 480px;
+  background-image: url(images/PAGE_2/FirstMovie.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 10px red;
+  box-shadow: 5px 5px 10px red;
+}
+body main .MAIN #MAINleft #Down {
+  width: 70%;
+  height: 150px;
+  border: 3px solid black;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  background-image: url(images/PAGE_2/MiniBackground.jpg);
+  text-align: center;
+  -webkit-box-shadow: 7px 5px 10px red;
+  box-shadow: 7px 5px 10px red;
+}
+body main .MAIN #MAINleft #Down .name {
+  color: black;
+  margin: 10px;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .MAIN #MAINleft #Down p {
+  color: black;
+  margin: 5px;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .MAIN #MAINright {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+body main .MAIN #MAINright #Up {
+  width: 98.5%;
+  height: 480px;
+  background-image: url(images/PAGE_2/LsstMovie.jpg);
+  background-size: 100% 100%;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 10px red;
+  box-shadow: 5px 5px 10px red;
+}
+body main .MAIN #MAINright #Down {
+  width: 70%;
+  height: 150px;
+  border: 3px solid black;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  background-image: url(images/PAGE_2/MiniBackground.jpg);
+  text-align: center;
+  -webkit-box-shadow: 7px 5px 10px red;
+  box-shadow: 7px 5px 10px red;
+}
+body main .MAIN #MAINright #Down .name {
+  color: black;
+  margin: 10px;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .MAIN #MAINright #Down p {
+  color: black;
+  margin: 5px;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main #FakeHR {
+  margin-top: 40px;
+  width: 100%;
+  height: 0px;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+}
+body main article {
+  width: 100%;
+}
+body main article #TitleBox {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main article #TitleBox .TITLE {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 3px 10px red;
+  box-shadow: 5px 3px 10px red;
+}
+body main article #TitleBox .TITLE p {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main article .PhasesBox1 {
+  margin-top: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body main article .PhasesBox1 .Phases {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  -webkit-box-shadow: 7px 5px 10px red;
+  box-shadow: 7px 5px 10px red;
+}
+body main article .PhasesBox1 .Phases .PhaseTitle {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main article .PhasesBox1 .Phases .MOVIES {
+  color: white;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+  margin: 0px;
+}
+body main article .PhasesBox1 .Phases4 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  -webkit-box-shadow: 7px 5px 10px red;
+  box-shadow: 7px 5px 10px red;
+}
+body main article .PhasesBox1 .Phases4 .PhaseTitle {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main article .PhasesBox1 .Phases4 .MOVIES {
+  color: white;
+  font-size: 15px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+  margin: 0px;
+}
+body main article #FakeHR {
+  margin-top: 40px;
+  width: 100%;
+  height: 0px;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+}
+body main #FILMSbox {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body main #FILMSbox #TitleBox {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main #FILMSbox #TitleBox .TITLE {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 3px 10px red;
+  box-shadow: 5px 3px 10px red;
+}
+body main #FILMSbox #TitleBox .TITLE p {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main #FILMSbox .FILMS {
+  width: 300px;
+  height: 400px;
+  border: 3px solid black;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 5px 10px red;
+  box-shadow: 7px 5px 10px red;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+}
+body main #FILMSbox .FILMS img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+body main #FILMSbox .FILMS .fa-regular.fa-circle-play {
+  opacity: 0;
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-shadow: 3px 3px 5px red;
+}
+body main #FILMSbox .FILMS:hover .fa-regular.fa-circle-play {
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  opacity: 1;
+}
+body footer {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+}
+body footer #NAME2 {
+  font-size: 27px;
+  color: white;
+  margin-left: 30px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body footer #NAME2 span {
+  font-size: 18px;
+}
+body footer .icons {
+  margin-right: 30px;
+}
+body footer .icons i {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 3px 3px 3px red;
+}
+
+@media screen and (max-width: 1500px) {
+  body main .MAIN {
+    height: 540px;
+  }
+  body main .MAIN #MAINleft {
+    height: 100%;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 470px;
+  }
+  body main .MAIN #MAINleft #Down {
+    height: 150px;
+  }
+  body main .MAIN #MAINright {
+    height: 100%;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 470px;
+  }
+  body main .MAIN #MAINright #Down {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  body main .MAIN {
+    height: 1100px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body main .MAIN #MAINleft {
+    width: 800px;
+    margin: 20px;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 420px;
+  }
+  body main .MAIN #MAINleft #Down {
+    height: 135px;
+    top: 360px;
+  }
+  body main .MAIN #MAINleft #Down p {
+    margin: 0px;
+  }
+  body main .MAIN #MAINright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 800px;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 420px;
+  }
+  body main .MAIN #MAINright #Down {
+    height: 135px;
+    top: 360px;
+  }
+  body main .MAIN #MAINright #Down p {
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body header nav .LINKS {
+    display: block;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 80px;
+    right: -130px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  body header nav .LINKS .PAGES {
+    display: block;
+    margin: 8px 0px;
+  }
+  body header nav .fa-solid.fa-bars {
+    display: block;
+  }
+  body header nav input[type=checkbox]:checked ~ .LINKS {
+    display: block;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 80px;
+    right: 0px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  body header nav input[type=checkbox]:checked ~ .LINKS .PAGES {
+    display: block;
+    margin: 8px 0px;
+  }
+  body footer #NAME2 {
+    width: 345px;
+    font-size: 25px;
+  }
+  body footer #NAME2 span {
+    font-size: 18px;
+  }
+  body footer .icons {
+    width: 165px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main .MAIN {
+    height: 1000px;
+  }
+  body main .MAIN #MAINleft {
+    width: 680px;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 380px;
+  }
+  body main .MAIN #MAINleft #Down {
+    top: 310px;
+  }
+  body main .MAIN #MAINright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 680px;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 380px;
+  }
+  body main .MAIN #MAINright #Down {
+    top: 310px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body main .MAIN {
+    height: 940px;
+  }
+  body main .MAIN #MAINleft {
+    width: 599px;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 380px;
+  }
+  body main .MAIN #MAINleft #Down {
+    top: 300px;
+  }
+  body main .MAIN #MAINright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 599px;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 380px;
+  }
+  body main .MAIN #MAINright #Down {
+    top: 300px;
+  }
+}
+@media screen and (max-width: 630px) {
+  body footer #NAME2 {
+    width: 275px;
+    font-size: 20px;
+  }
+  body footer #NAME2 span {
+    font-size: 14px;
+  }
+  body footer .icons {
+    width: 165px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 599px) {
+  body main .MAIN {
+    height: 850px;
+  }
+  body main .MAIN #MAINleft {
+    width: 480px;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 280px;
+  }
+  body main .MAIN #MAINleft #Down {
+    top: 250px;
+  }
+  body main .MAIN #MAINright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 480px;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 280px;
+  }
+  body main .MAIN #MAINright #Down {
+    top: 250px;
+  }
+}
+@media screen and (max-width: 530px) {
+  body header nav h1 {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  body footer {
+    height: 150px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 499px) {
+  body main .MAIN {
+    height: 750px;
+  }
+  body main .MAIN #MAINleft {
+    width: 405px;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 230px;
+  }
+  body main .MAIN #MAINleft #Down {
+    top: 210px;
+  }
+  body main .MAIN #MAINright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 405px;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 230px;
+  }
+  body main .MAIN #MAINright #Down {
+    top: 210px;
+  }
+}
+@media screen and (max-width: 415px) {
+  body main .MAIN {
+    height: 710px;
+  }
+  body main .MAIN #MAINleft {
+    width: 95%;
+  }
+  body main .MAIN #MAINleft #Up {
+    height: 200px;
+  }
+  body main .MAIN #MAINleft #Down {
+    top: 190px;
+  }
+  body main .MAIN #MAINright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 95%;
+  }
+  body main .MAIN #MAINright #Up {
+    height: 200px;
+  }
+  body main .MAIN #MAINright #Down {
+    top: 190px;
+  }
+  body main article .PhasesBox1 .Phases4 {
+    height: 430px;
+  }
+  body main article .PhasesBox1 .Phases4 .MOVIES {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,811 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap");
+body {
+  width: 100%;
+  margin: 0px;
+  background-image: url(images/PAGE_1/BodyBackground.jpg);
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+}
+body header {
+  width: 100%;
+  height: 80px;
+}
+body header nav {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+  border-bottom: 3px solid white;
+  position: absolute;
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+}
+body header nav h1 {
+  color: white;
+  margin-left: 30px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body header nav .LINKS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body header nav .LINKS .PAGES {
+  color: white;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body header nav input[type=checkbox] {
+  display: none;
+}
+body header nav .fa-solid.fa-bars {
+  font-size: 18px;
+  margin-right: 20px;
+  color: white;
+  display: none;
+}
+body main {
+  width: 100%;
+}
+body main .Banner {
+  width: 100%;
+  height: 650px;
+  background-image: url(images/PAGE_3/MAINbackground.webp);
+  background-size: 100% 100%;
+  -webkit-box-shadow: 8px 8px 8px red;
+  box-shadow: 8px 8px 8px red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .Banner #PageName {
+  margin: 0px;
+  font-size: 50px;
+  color: white;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main #TitleBox {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main #TitleBox .TITLE {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 3px 10px red;
+  box-shadow: 5px 3px 10px red;
+}
+body main #TitleBox .TITLE p {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information {
+  margin-bottom: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .Information .Box1 {
+  width: 990px;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body main .Information .Box1 .Left {
+  width: 50%;
+  height: 100%;
+}
+body main .Information .Box1 .Left #LeftUp {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+}
+body main .Information .Box1 .Left #LeftUp .title {
+  font-size: 22px;
+  margin: 10px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information .Box1 .Left #LeftUp p {
+  font-size: 13px;
+  margin: 10px 20px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information .Box1 .Left #LeftDown {
+  width: 100%;
+  height: 405px;
+  background-image: url(images/PAGE_3/MiniBackground.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+body main .Information .Box1 .Right {
+  width: 50%;
+  height: 100%;
+}
+body main .Information .Box1 .Right #RightUp {
+  width: 100%;
+  height: 405px;
+  background-image: url(images/PAGE_3/MiniBackground2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+body main .Information .Box1 .Right #RightDown {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+}
+body main .Information .Box1 .Right #RightDown p {
+  font-size: 13px;
+  margin: 15px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information2 {
+  margin-bottom: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .Information2 .Box2 {
+  width: 990px;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body main .Information2 .Box2 .Left2 {
+  width: 50%;
+  height: 100%;
+}
+body main .Information2 .Box2 .Left2 #LeftUp2 {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+}
+body main .Information2 .Box2 .Left2 #LeftUp2 .title2 {
+  font-size: 22px;
+  margin: 10px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information2 .Box2 .Left2 #LeftUp2 p {
+  font-size: 13px;
+  margin: 10px 20px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information2 .Box2 .Left2 #LeftDown2 {
+  width: 100%;
+  height: 405px;
+  background-image: url(images/PAGE_3/MiniBackground3.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+body main .Information2 .Box2 .Right2 {
+  width: 50%;
+  height: 100%;
+}
+body main .Information2 .Box2 .Right2 #RightUp2 {
+  width: 100%;
+  height: 405px;
+  background-image: url(images/PAGE_3/MiniBackground4.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+body main .Information2 .Box2 .Right2 #RightDown2 {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+}
+body main .Information2 .Box2 .Right2 #RightDown2 p {
+  font-size: 13px;
+  margin: 15px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information3 {
+  margin-bottom: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .Information3 .Box3 {
+  width: 990px;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body main .Information3 .Box3 .Left3 {
+  width: 50%;
+  height: 100%;
+}
+body main .Information3 .Box3 .Left3 #LeftUp3 {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+}
+body main .Information3 .Box3 .Left3 #LeftUp3 p {
+  font-size: 13px;
+  margin: 10px;
+  margin-top: none;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information3 .Box3 .Left3 #LeftDown3 {
+  width: 100%;
+  height: 405px;
+  background-image: url(images/PAGE_3/MiniBackground5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+body main .Information3 .Box3 .Right3 {
+  width: 50%;
+  height: 100%;
+}
+body main .Information3 .Box3 .Right3 #RightUp3 {
+  width: 100%;
+  height: 405px;
+  background-image: url(images/PAGE_3/MiniBackground6.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+body main .Information3 .Box3 .Right3 #RightDown3 {
+  width: 100%;
+  height: 490px;
+  text-align: center;
+}
+body main .Information3 .Box3 .Right3 #RightDown3 p {
+  font-size: 13px;
+  margin: 15px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .Information3_LASTpart {
+  width: 100%;
+  height: 410px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .Information3_LASTpart #center {
+  width: 800px;
+  height: 400px;
+  text-align: center;
+}
+body main .Information3_LASTpart #center p {
+  font-size: 13px;
+  margin: 20px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body footer {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+}
+body footer #NAME2 {
+  font-size: 27px;
+  color: white;
+  margin-left: 30px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body footer #NAME2 span {
+  font-size: 18px;
+}
+body footer .icons {
+  margin-right: 30px;
+}
+body footer .icons i {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 3px 3px 3px red;
+}
+
+@media screen and (max-width: 1300px) {
+  body main .Banner {
+    height: 580px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  body main .Banner {
+    height: 520px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body header nav .LINKS {
+    display: block;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 80px;
+    right: -130px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  body header nav .LINKS .PAGES {
+    display: block;
+    margin: 8px 0px;
+  }
+  body header nav .fa-solid.fa-bars {
+    display: block;
+  }
+  body header nav input[type=checkbox]:checked ~ .LINKS {
+    display: block;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 80px;
+    right: 0px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  body header nav input[type=checkbox]:checked ~ .LINKS .PAGES {
+    display: block;
+    margin: 8px 0px;
+  }
+  body main .Banner {
+    height: 450px;
+  }
+  body main .Information .Box1 {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 1800px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information .Box1 .Left {
+    width: 495px;
+    height: 930px;
+    margin: 20px;
+  }
+  body main .Information .Box1 .Left #LeftUp {
+    height: 525px;
+  }
+  body main .Information .Box1 .Right {
+    width: 495px;
+    height: 900px;
+    margin: 20px;
+  }
+  body main .Information2 .Box2 {
+    width: 800px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 1800px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information2 .Box2 .Left2 {
+    width: 495px;
+    height: 900px;
+    margin: 20px;
+  }
+  body main .Information2 .Box2 .Right2 {
+    width: 495px;
+    height: 900px;
+    margin: 20px;
+  }
+  body main .Information3 .Box3 {
+    width: 800px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 1800px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  body main .Information3 .Box3 .Left3 {
+    width: 495px;
+    height: 900px;
+    margin: 20px;
+  }
+  body main .Information3 .Box3 .Right3 {
+    width: 495px;
+    height: 900px;
+    margin: 20px;
+  }
+  body footer #NAME2 {
+    width: 345px;
+    font-size: 25px;
+  }
+  body footer #NAME2 span {
+    font-size: 18px;
+  }
+  body footer .icons {
+    width: 165px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main .Banner {
+    height: 380px;
+  }
+  body main .Information3_LASTpart {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 630px) {
+  body main .Banner {
+    height: 300px;
+  }
+  body footer #NAME2 {
+    width: 275px;
+    font-size: 20px;
+  }
+  body footer #NAME2 span {
+    font-size: 14px;
+  }
+  body footer .icons {
+    width: 165px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 530px) {
+  body header nav h1 {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  body main .Banner {
+    height: 250px;
+  }
+  body main .Information .Box1 {
+    height: 1800px;
+  }
+  body main .Information .Box1 .Left {
+    height: 910px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information .Box1 .Left #LeftUp {
+    width: 95%;
+    height: 599px;
+  }
+  body main .Information .Box1 .Left #LeftDown {
+    width: 95%;
+    height: 300px;
+  }
+  body main .Information .Box1 .Right {
+    height: 830px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information .Box1 .Right #RightUp {
+    width: 95%;
+    height: 300px;
+  }
+  body main .Information .Box1 .Right #RightDown {
+    width: 95%;
+    height: 520px;
+  }
+  body main .Information2 .Box2 {
+    height: 2000px;
+  }
+  body main .Information2 .Box2 .Left2 {
+    height: 910px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information2 .Box2 .Left2 #LeftUp2 {
+    width: 95%;
+    height: 599px;
+  }
+  body main .Information2 .Box2 .Left2 #LeftDown2 {
+    width: 95%;
+    height: 300px;
+  }
+  body main .Information2 .Box2 .Right2 {
+    height: 1030px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information2 .Box2 .Right2 #RightUp2 {
+    width: 95%;
+    height: 300px;
+  }
+  body main .Information2 .Box2 .Right2 #RightDown2 {
+    width: 95%;
+    height: 670px;
+  }
+  body main .Information3 .Box3 {
+    height: 1840px;
+  }
+  body main .Information3 .Box3 .Left3 {
+    height: 910px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information3 .Box3 .Left3 #LeftUp3 {
+    width: 95%;
+    height: 630px;
+  }
+  body main .Information3 .Box3 .Left3 #LeftDown3 {
+    width: 95%;
+    height: 300px;
+  }
+  body main .Information3 .Box3 .Right3 {
+    height: 840px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .Information3 .Box3 .Right3 #RightUp3 {
+    width: 95%;
+    height: 300px;
+  }
+  body main .Information3 .Box3 .Right3 #RightDown3 {
+    width: 95%;
+    height: 625px;
+  }
+  body main .Information3_LASTpart {
+    height: 750px;
+  }
+  body main .Information3_LASTpart #center {
+    width: 95%;
+    height: 750px;
+  }
+  body footer {
+    height: 150px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 460px) {
+  body main .Information .Box1 .Left {
+    height: 950px;
+  }
+  body main .Information .Box1 .Left #LeftUp {
+    height: 660px;
+  }
+  body main .Information2 .Box2 .Left2 {
+    height: 1000px;
+  }
+  body main .Information2 .Box2 .Left2 #LeftUp2 {
+    height: 670px;
+  }
+  body main .Information3 .Box3 {
+    height: 2000px;
+  }
+  body main .Information3 .Box3 .Left3 {
+    height: 1000px;
+  }
+  body main .Information3 .Box3 .Left3 #LeftUp3 {
+    height: 670px;
+  }
+  body main .Information3 .Box3 .Right3 {
+    height: 1000px;
+  }
+  body main .Information3_LASTpart {
+    height: 770px;
+  }
+  body main .Information3_LASTpart #center {
+    height: 770px;
+  }
+}
+@media screen and (max-width: 425px) {
+  body main .Banner {
+    height: 200px;
+  }
+  body main #TitleBox .TITLE {
+    width: 340px;
+  }
+  body main .Information .Box1 {
+    height: 1790px;
+  }
+  body main .Information .Box1 .Left {
+    height: 930px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main .Information .Box1 .Left #LeftUp {
+    height: 730px;
+  }
+  body main .Information .Box1 .Left #LeftDown {
+    height: 200px;
+  }
+  body main .Information .Box1 .Right {
+    height: 840px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main .Information .Box1 .Right #RightUp {
+    height: 200px;
+  }
+  body main .Information .Box1 .Right #RightDown {
+    height: 640px;
+  }
+  body main .Information2 .Box2 {
+    height: 2040px;
+  }
+  body main .Information2 .Box2 .Left2 {
+    height: 960px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main .Information2 .Box2 .Left2 #LeftUp2 {
+    height: 750px;
+  }
+  body main .Information2 .Box2 .Left2 #LeftDown2 {
+    height: 200px;
+  }
+  body main .Information2 .Box2 .Right2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main .Information2 .Box2 .Right2 #RightUp2 {
+    height: 200px;
+  }
+  body main .Information2 .Box2 .Right2 #RightDown2 {
+    height: 810px;
+  }
+  body main .Information3 .Box3 .Left3 {
+    height: 900px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main .Information3 .Box3 .Left3 #LeftUp3 {
+    height: 700px;
+  }
+  body main .Information3 .Box3 .Left3 #LeftDown3 {
+    height: 200px;
+  }
+  body main .Information3 .Box3 .Right3 {
+    height: 830px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body main .Information3 .Box3 .Right3 #RightUp3 {
+    height: 200px;
+  }
+  body main .Information3_LASTpart {
+    height: 900px;
+  }
+  body main .Information3_LASTpart #center {
+    height: 900px;
+  }
+}

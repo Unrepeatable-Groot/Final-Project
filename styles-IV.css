@@ -1,0 +1,863 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap");
+body {
+  width: 100%;
+  margin: 0px;
+  background-image: url(images/PAGE_1/BodyBackground.jpg);
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+}
+body header {
+  width: 100%;
+  height: 80px;
+}
+body header nav {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+  border-bottom: 3px solid white;
+  position: absolute;
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+}
+body header nav h1 {
+  color: white;
+  margin-left: 30px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body header nav .LINKS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body header nav .LINKS .PAGES {
+  color: white;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body header nav input[type=checkbox] {
+  display: none;
+}
+body header nav .fa-solid.fa-bars {
+  font-size: 18px;
+  margin-right: 20px;
+  color: white;
+  display: none;
+}
+body main {
+  width: 100%;
+}
+body main .Banner {
+  width: 100%;
+  height: 650px;
+  background-image: url(images/PAGE_4/MAINbackground.png);
+  background-size: cover;
+  -webkit-box-shadow: 8px 8px 8px red;
+  box-shadow: 8px 8px 8px red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .Banner #PageName {
+  margin: 0px;
+  font-size: 50px;
+  color: white;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main #TitleBox {
+  width: 100%;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+body main #TitleBox .TITLE {
+  width: 420px;
+  height: 40px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 3px 10px red;
+  box-shadow: 5px 3px 10px red;
+}
+body main #TitleBox .TITLE p {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main article {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body main article .CARDS {
+  width: 280px;
+  height: 380px;
+  -webkit-box-shadow: 5px 5px 5px red;
+  box-shadow: 5px 5px 5px red;
+  border-radius: 18px;
+  margin: 10px;
+}
+body main article #CARD1 {
+  background-image: url(images/PAGE_4/Spider-Man.jpg);
+  background-size: cover;
+}
+body main article #CARD2 {
+  background-image: url(images/PAGE_4/Thor.jpg);
+  background-size: cover;
+}
+body main article #CARD3 {
+  background-image: url(images/PAGE_4/IRON-MAN.jpg);
+  background-size: cover;
+}
+body main article #CARD4 {
+  background-image: url(images/PAGE_4/Captain-America.jpg);
+  background-size: cover;
+}
+body main article #CARD5 {
+  background-image: url(images/PAGE_4/Ant-Man.jpg);
+  background-size: cover;
+}
+body main #TitleBox2 {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+body main #TitleBox2 .TITLE2 {
+  width: 420px;
+  height: 40px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 3px 10px red;
+  box-shadow: 5px 3px 10px red;
+}
+body main #TitleBox2 .TITLE2 p {
+  color: white;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main #NameBox {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+body main #NameBox .Name {
+  width: 220px;
+  height: 30px;
+  background-color: rgb(22, 22, 22);
+  border: 3px solid black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 3px 10px red;
+  box-shadow: 5px 3px 10px red;
+  margin-bottom: 20px;
+}
+body main #NameBox .Name p {
+  color: white;
+  font-size: 20px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body main .PERSON {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .PERSON #Picture1 {
+  background-image: url(images/PAGE_4/IRON-MAN.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture2 {
+  background-image: url(images/PAGE_4/Robert-Downey-Jr.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture3 {
+  background-image: url(images/PAGE_4/Captain-America.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture4 {
+  background-image: url(images/PAGE_4/Chris-Evans.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture5 {
+  background-image: url(images/PAGE_4/Thor.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture6 {
+  background-image: url(images/PAGE_4/Chris-Hemsworth.webp);
+  background-size: cover;
+}
+body main .PERSON #Picture7 {
+  background-image: url(images/PAGE_4/Spider-Man.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture8 {
+  background-image: url(images/PAGE_4/Tom-Holland.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture9 {
+  background-image: url(images/PAGE_4/Ant-Man.jpg);
+  background-size: cover;
+}
+body main .PERSON #Picture10 {
+  background-image: url(images/PAGE_4/Paul-Rudd.jpg);
+  background-size: cover;
+}
+body main .PERSON .Left {
+  width: 300px;
+  height: 400px;
+  -webkit-box-shadow: 8px 8px 8px red;
+  box-shadow: 8px 8px 8px red;
+  border-radius: 20px;
+}
+body main .PERSON .Center {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(22, 22, 22);
+  -webkit-box-shadow: 8px 8px 8px red;
+  box-shadow: 8px 8px 8px red;
+  border-radius: 20px;
+  text-align: center;
+}
+body main .PERSON .Center .ActorsInformation {
+  color: white;
+  font-size: 16px;
+  margin: 20px;
+  text-shadow: 3px 3px 3px red;
+}
+body main .PERSON .Center .ActorsInformation4 {
+  color: white;
+  font-size: 16px;
+  margin: 15px;
+  text-shadow: 3px 3px 3px red;
+}
+body main .PERSON .Right {
+  width: 300px;
+  height: 400px;
+  -webkit-box-shadow: 8px 8px 8px red;
+  box-shadow: 8px 8px 8px red;
+  border-radius: 20px;
+}
+body main .PERSON .Middle {
+  width: 80px;
+  height: 400px;
+}
+body main .PERSON .Middle .StickBox1 {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .PERSON .Middle .StickBox1 .stick {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(22, 22, 22);
+  -webkit-box-shadow: 5px 5px 5px red;
+  box-shadow: 5px 5px 5px red;
+}
+body main .PERSON .Middle .StickBox2 {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body main .PERSON .Middle .StickBox2 .stick {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(22, 22, 22);
+  -webkit-box-shadow: 5px 5px 5px red;
+  box-shadow: 5px 5px 5px red;
+}
+body main .PERSON .SmollWidthStick {
+  display: none;
+}
+body footer {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+}
+body footer #NAME2 {
+  font-size: 27px;
+  color: white;
+  margin-left: 30px;
+  font-family: "Merienda", cursive;
+  text-shadow: 3px 3px 3px red;
+}
+body footer #NAME2 span {
+  font-size: 18px;
+}
+body footer .icons {
+  margin-right: 30px;
+}
+body footer .icons i {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 3px 3px 3px red;
+}
+
+@media screen and (max-width: 1500px) {
+  body main .Banner {
+    height: 600px;
+  }
+  body main article {
+    height: 830px;
+  }
+  body main article .CARDS {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1470px) {
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .PERSON {
+    display: block;
+    position: relative;
+    width: 800px;
+    height: 880px;
+  }
+  body main .PERSON .Left {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+  }
+  body main .PERSON .Center {
+    width: 750px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 20px;
+  }
+  body main .PERSON .Right {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+  }
+  body main .PERSON .Middle {
+    display: none;
+  }
+  body main .PERSON .SmollWidthStick {
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 410px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox .InsideLeft {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox .InsideLeft .Stick {
+    width: 10px;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    -webkit-box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px red;
+    z-index: -1;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox .InsideRight {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox .InsideRight .Stick {
+    width: 10px;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    -webkit-box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px red;
+    z-index: -1;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox .InsideLeft {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox .InsideLeft .Stick {
+    width: 10px;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    -webkit-box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px red;
+    z-index: -1;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox .InsideRight {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox .InsideRight .Stick {
+    width: 10px;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    -webkit-box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px red;
+    z-index: -1;
+  }
+  body footer {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body main .Banner {
+    height: 500px;
+  }
+  body main article .CARDS {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body header nav .LINKS {
+    display: block;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 80px;
+    right: -130px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  body header nav .LINKS .PAGES {
+    display: block;
+    margin: 8px 0px;
+  }
+  body header nav .fa-solid.fa-bars {
+    display: block;
+  }
+  body header nav input[type=checkbox]:checked ~ .LINKS {
+    display: block;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 80px;
+    right: 0px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  body header nav input[type=checkbox]:checked ~ .LINKS .PAGES {
+    display: block;
+    margin: 8px 0px;
+  }
+  body main .Banner {
+    height: 400px;
+  }
+  body footer #NAME2 {
+    width: 345px;
+    font-size: 25px;
+  }
+  body footer #NAME2 span {
+    font-size: 18px;
+  }
+  body footer .icons {
+    width: 165px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body main .Banner {
+    height: 350px;
+  }
+  body main article {
+    height: 700px;
+  }
+  body main article .CARDS {
+    width: 250px;
+    height: 330px;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main .Banner {
+    height: 300px;
+  }
+  body main .PERSON {
+    height: 1350px;
+    width: 100%;
+  }
+  body main .PERSON .Left {
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  body main .PERSON .Center {
+    top: 35%;
+    width: 95%;
+  }
+  body main .PERSON .Right {
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  body main .PERSON .SmollWidthStick {
+    top: 425px;
+    height: 1000px;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox {
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox {
+    top: 455px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 780px) {
+  body main article {
+    height: 2300px;
+  }
+  body main article .CARDS {
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 320px;
+    height: 420px;
+  }
+}
+@media screen and (max-width: 750px) {
+  body main .PERSON {
+    height: 1450px;
+  }
+  body main .PERSON .Center {
+    top: 470px;
+    height: 500px;
+  }
+  body main .PERSON .SmollWidthStick {
+    top: 420px;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox {
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox {
+    top: 540px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 630px) {
+  body main .Banner {
+    height: 250px;
+  }
+  body footer #NAME2 {
+    width: 275px;
+    font-size: 20px;
+  }
+  body footer #NAME2 span {
+    font-size: 14px;
+  }
+  body footer .icons {
+    width: 165px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 575px) {
+  body main .Banner {
+    height: 180px;
+  }
+  body main article .CARDS {
+    margin: 10px;
+  }
+  body main .PERSON {
+    height: 1549px;
+  }
+  body main .PERSON .Center {
+    top: 470px;
+    height: 599px;
+  }
+  body main .PERSON #Center3 {
+    height: 400px;
+  }
+  body main .PERSON .SmollWidthStick {
+    top: 420px;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox {
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox {
+    top: 639px;
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick #RightStickBox3 {
+    top: 440px;
+  }
+  body main #PERSON3 {
+    height: 1350px;
+  }
+}
+@media screen and (max-width: 530px) {
+  body header nav h1 {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  body footer {
+    height: 150px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 455px) {
+  body main .PERSON {
+    height: 1650px;
+  }
+  body main .PERSON .Center {
+    top: 470px;
+    height: 700px;
+  }
+  body main .PERSON #Center3 {
+    height: 500px;
+  }
+  body main .PERSON .SmollWidthStick {
+    top: 420px;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox {
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox {
+    top: 740px;
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick #RightStickBox3 {
+    top: 540px;
+  }
+  body main #PERSON3 {
+    height: 1450px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body main .PERSON {
+    height: 1740px;
+  }
+  body main .PERSON .Center {
+    top: 470px;
+    height: 790px;
+  }
+  body main .PERSON #Center3 {
+    height: 500px;
+  }
+  body main .PERSON .SmollWidthStick {
+    top: 420px;
+  }
+  body main .PERSON .SmollWidthStick .LeftStickBox {
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick .RightStickBox {
+    top: 830px;
+    height: 70px;
+  }
+  body main .PERSON .SmollWidthStick #RightStickBox3 {
+    top: 540px;
+  }
+  body main #PERSON3 {
+    height: 1450px;
+  }
+}
