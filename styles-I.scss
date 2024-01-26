@@ -83,6 +83,10 @@ body {
                     margin-right: 30px;
                     text-decoration: none;
                 }
+                #ThisPage {
+                    font-size: 22px;
+                    text-decoration: underline;
+                }
             }
 
             input[type="checkbox"] {
@@ -185,6 +189,7 @@ body {
                         width: 100%;
                         height: 100%;
                         border-radius: 12px;
+                        cursor: pointer;
                     }
                 }
             }
@@ -428,6 +433,7 @@ body {
                         width: 100%;
                         height: 100%;
                         border-radius: 12px;
+                        cursor: pointer;
                     }
                 }
             }

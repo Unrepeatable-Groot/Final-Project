@@ -53,6 +53,10 @@ body header nav .LINKS .PAGES {
   margin-right: 30px;
   text-decoration: none;
 }
+body header nav .LINKS #ThisPage {
+  font-size: 22px;
+  text-decoration: underline;
+}
 body header nav input[type=checkbox] {
   display: none;
 }
@@ -171,6 +175,7 @@ body main article #Movies .MovieBoxes img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+  cursor: pointer;
 }
 body main #MARVELcreator {
   width: 100%;
@@ -421,6 +426,7 @@ body main .SecondArticle #Movies .MovieBoxes img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+  cursor: pointer;
 }
 body footer {
   width: 100%;

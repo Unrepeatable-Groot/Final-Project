@@ -86,6 +86,10 @@ body {
                     text-decoration: none;
                     @include Font18px;
                 }
+                #ThisPage {
+                    font-size: 22px;
+                    text-decoration: underline;
+                }
             }
 
             input[type="checkbox"] {
@@ -139,11 +143,13 @@ body {
         }
         .Main {
             width: 100%;
-            height: 599px;
-            margin-top: 40px;
             @include evenly;
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
+
+            #InsideRightMAIN1, #InsideRightMAIN2, #InsideRightMAIN3 {
+                margin-top: 80px;
+            }
 
             .InsideMAIn {
                 margin: 10px;
@@ -152,10 +158,10 @@ body {
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
-                border: 4px solid black;
                 border-radius: 20px;
                 padding: 10px;
-                background-color: rgb(225, 225, 225);
+                background-color: rgb(236, 236, 236);
+                box-shadow: 5px 5px 8px red;
 
                 .Inside {
                     width: 50%;
@@ -232,13 +238,14 @@ body {
                     justify-content: center;
 
             #InsideLastPart {
-                width: 900px;
+                width: 1000px;
                 text-align: center;
-                margin-top: 40px;
-                border: 4px solid black;
+                margin-top: 70px;
                 border-radius: 20px;
                 padding: 10px;
-                background-color: rgb(225, 225, 225);
+                background-color: rgb(236, 236, 236);
+                box-shadow: 5px 5px 8px red;
+
 
                 p {
                     font-size: 14px;
@@ -307,7 +314,17 @@ body {
     body {
         main {
             .Main {
-                height: 1255px;
+                height: 1300px;
+                margin-bottom: 30px;
+
+                #InsideRightMAIN1, #InsideRightMAIN2, #InsideRightMAIN3 {
+                    margin-top: 30px;
+                }
+            }
+            .last_part {
+                #InsideLastPart {
+                    margin-top: 0px;
+                }
             }
         }
     }
@@ -317,6 +334,11 @@ body {
         main {
             .Banner {
                 height: 510px;
+            }
+            .last_part {
+                #InsideLastPart {
+                    width: 90%; 
+                }
             }
         }
     }
@@ -442,8 +464,12 @@ body {
                     .Inside {
                         width: 430px;
                         height: 550px;
-
                     } 
+                }
+            }
+            .last_part {
+                #InsideLastPart {
+                    margin-top: 30px;
                 }
             }
         }
@@ -574,17 +600,23 @@ body {
                 height: 200px;
             }
         }
+        footer {
+            .icons {
+                width: 165px;
+                padding-left: 20px;
+            }
+        }
     }
 }
 @media screen and (max-width: 410px) {
     body {
         main {
             .Main {
-                height: 2850px;
+                height: 3000px;
 
                 .InsideMAIn {
                     width: 90%;
-                    height: 1400px;
+                    height: 1450px;
 
                     .Inside {
                         width: 100%;
